@@ -1,0 +1,136 @@
+
+
+.live-covid{
+    color: #001E6C !important;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: rem;
+    /* animation: txt 0.9s ease-out infinite normal; */
+}
+/* @keyframes txt {
+  0%{
+    transform: scale(0.3);
+  }
+  25%{
+    transform: scale(0.6);
+  }
+} */
+.case-heading{
+    color: #001E6C !important;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* margin: 3rem; */
+}
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {
+    margin: 0 -5px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 670px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    height: 200px;
+    margin: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.45);
+    text-align: left;
+    background-color: #f1f1f1;
+    transition: transform 330ms ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card .course-description {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 100%;
+    border-radius: 2px;
+    padding: 15px;
+
+  }
+  
+  .card .course-description h3 {
+    font-size: 24px;
+    color: white;
+  }
+  
+  .card .course-description p {
+    font-size: 16px;
+    color: white;
+  }
+  
+  .one {
+    background-color: #001E6C;
+  }
+  
+  .two {
+    background-color: #A03C78;
+  }
+  
+  .three {
+    background-color: #334257;
+  }
+
+a {
+    text-decoration: none;
+  }
+  
+.span-p{
+    font-size: 0.8rem;
+    text-transform: uppercase;
+  }
+  .data{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   font-weight: 600;
+   color: #f1f1f1;
+   text-transform: uppercase;
+   margin: 3rem;
+   font-family: 'Courier New', Courier, monospace;
+   text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+   0px 8px 13px rgba(0,0,0,0.1),
+   0px 18px 23px rgba(0,0,0,0.1);
+  
+
+  }

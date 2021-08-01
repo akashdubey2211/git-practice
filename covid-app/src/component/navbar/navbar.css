@@ -1,0 +1,30 @@
+.navbar{
+    background-color: #fff !important;
+}
+
+.navbar-brand{
+font-weight: 600;
+    
+}
+.icons{
+    color: #64C9CF;
+    font-size: 2px;
+}
+.logo{
+    color: #001E6C;
+}
+.navbar a {
+text-transform: capitalize;
+color: #001E6C !important;
+}
+.navbar a:hover {
+    color: #00C1D4 !important;
+    transition: all 0.5s;
+    }
+li{
+    color: #001E6C;
+}
+.active_class{
+    font-weight: 500;
+   
+}

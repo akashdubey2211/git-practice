@@ -1,0 +1,46 @@
+main {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  summary {
+    padding: 1em;
+    background:#001E6C;
+    margin-bottom: 1em;
+    cursor: pointer;
+    outline: none;
+    color: aliceblue;
+    border-radius: 0.3em;
+    font-weight: bold;
+
+  }
+  .fq{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #001E6C;
+    margin: 2rem;
+  }
+  summary:hover{
+    background: #031542;
+  }
+  
+  details[open] summary ~ * {
+    animation: open 0.5s ease-in-out;
+  }
+  
+  @keyframes open {
+    from {
+      opacity: 0;
+      margin-top: -10px;
+    }
+    to {
+      opacity: 1;
+      margin-top: 0;
+    }
+  }
+  .content {
+    margin-bottom: 2em;
+
+  }
+  
